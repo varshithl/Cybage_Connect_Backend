@@ -43,6 +43,7 @@ namespace Cybage_Connect.Controllers
             return users;
         }
 
+        //JWT
 
         [HttpPut("EditDetails")]
         [Authorize]
